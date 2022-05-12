@@ -7,7 +7,7 @@
 body {
   position: relative;
   max-width: 1280px;
-  /* background-color: black; */
+  background-color: rgb(13, 8, 8);
   /* width: 100vh; */
   /* height: 100vh; */
 }
@@ -17,6 +17,7 @@ header {
   top: 0;
   width: 100%;
   background-color: black;
+  z-index: 1;
 }
 
 .container {
@@ -68,7 +69,7 @@ header {
   background-image: url("https://picsum.photos/200/300");
   background-size: cover;
   background-repeat: no-repeat;
-  border: 5px solid white;
+  border: 5px solid black;
   /* margin: 10px; */
 }
 
@@ -76,6 +77,8 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
+  color: white;
+  border-color: beige;
 }
 
 /* footer-section */
@@ -84,8 +87,23 @@ header {
   width: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   min-height: 120px;
-  background-color: black;
+  background-color: rgb(13, 8, 8);
+}
+
+.f-left {
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+
+.f-center {
+  display: flex;
+  color: white;
+}
+.f-right {
+  display: flex;
+  color: white;
 }
