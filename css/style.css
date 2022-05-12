@@ -82,9 +82,14 @@ header {
   background-color: grey;
 }
 
-.fa-solid .fa-microphone-slash {
-  position: absolute;
-  color: white;
+.fa-solid {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  color: red;
+  /* z-index: 1; */
 }
 
 /* footer-section */
