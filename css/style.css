@@ -3,3 +3,74 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  position: relative;
+  /* background-color: black; */
+  /* width: 100vh; */
+  /* height: 100vh; */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 70px;
+}
+
+.speaker-view {
+  color: white;
+  display: flex;
+  align-items: right;
+  /* gap: 20px; */
+}
+
+.button {
+  color: white;
+  display: flex;
+  align-items: right;
+  /* gap: 10px; */
+}
+
+/* main-section */
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  /* change */
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.img {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background-image: url("https://picsum.photos/200/300");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
